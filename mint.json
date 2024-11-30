@@ -1,91 +1,72 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Groot Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/images/grootpremium.png",
+    "light": "/images/grootpremium.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "grootpremium.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#ff0000",
+    "light": "#ff0000",
+    "dark": "#ff0000",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#f0ac5f",
+      "to": "#f0ac5f"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://discord.gg/groot"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://grootbot.pro/dashboard"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.gg/groot"
     },
     {
-      "name": "Blog",
+      "name": "Website",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://grootbot.com/"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Groot",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "Groot/Groots"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Premium",
       "pages": [
-        "api-reference/introduction"
+        "Premium/Premium",
+        "Premium/Usage"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Music",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "Music/music"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/grootbot",
+    "github": "https://github.com/grootbot",
+    "linkedin": "https://linkedin.com/company/ghostpay"
   }
 }
