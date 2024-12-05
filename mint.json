@@ -7,12 +7,12 @@
   },
   "favicon": "grootpremium.svg",
   "colors": {
-    "primary": "#ff0000",
-    "light": "#ff0000",
-    "dark": "#ff0000",
+    "primary": "#7647e2",
+    "light": "#7647e2",
+    "dark": "#7289da",
     "anchors": {
-      "from": "#f0ac5f",
-      "to": "#f0ac5f"
+      "from": "#7289da",
+      "to": "#7289da"
     }
   },
   "topbarLinks": [
@@ -41,26 +41,17 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction"
+        "introduction",
+        "Premium",
+        "Groots"
       ]
     },
     {
-      "group": "Groot",
+      "group": "Server",
       "pages": [
-        "Groot/Groots"
-      ]
-    },
-    {
-      "group": "Premium",
-      "pages": [
-        "Premium/Premium",
-        "Premium/Usage"
-      ]
-    },
-    {
-      "group": "Music",
-      "pages": [
-        "Music/music"
+        "Server/Premium",
+        "Server/Ignore",
+        "Server/Music"
       ]
     }
   ],
